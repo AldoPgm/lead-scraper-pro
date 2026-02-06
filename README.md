@@ -5,8 +5,6 @@ This tool is designed to extract professional contact information (Name, Title, 
 
 ## Features
 ![Lead Scraper Main](assets/screenshot1.png)
-![Lead Scraper Search](assets/screenshot3.png)
-![Lead Scraper Results](assets/screenshot2.png)
 
 - **Zero-Dependency Architecture**: Built entirely with Python standard libraries (`urllib`, `html.parser`, `re`), ensuring easy deployment without complex environment setups (no `pip install` required).
 - **Authentication Support**: Accepts LinkedIn `li_at` session cookies to bypass authwalls and access real profile data.
