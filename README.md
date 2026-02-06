@@ -16,8 +16,27 @@ This tool is designed to extract professional contact information (Name, Title, 
 - `workflows/`: Standard Operating Procedures (SOPs) for usage.
 - `.tmp/`: Stores extraction outputs (CSV).
 
+## 🚀 Quick Start
+### For Windows Users (Easiest)
+1. **Clone or Download** this repository.
+2. Double-click **`run_ui.bat`**.
+3. That's it! The script will install dependencies and open the App.
+
+### For Developers (Manual)
+```bash
+# 1. Clone repo
+git clone https://github.com/AldoPgm/lead-scraper-pro.git
+cd lead-scraper-pro
+
+# 2. Install requirements
+pip install streamlit pandas duckduckgo-search
+
+# 3. Run App
+streamlit run app.py
+```
+
 ## Usage
-### 1. Verification Mode (No Login)
+### 1. Web Interface (Streamlit)
 Run purely in demo mode to test the logic:
 ```bash
 python tools/scrape_leads.py --urls "https://www.linkedin.com/in/target" --demo
