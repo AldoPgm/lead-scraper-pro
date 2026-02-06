@@ -4,6 +4,8 @@
 This tool is designed to extract professional contact information (Name, Title, Company) from public LinkedIn profiles. It demonstrates a robust, zero-dependency approach to web scraping and data enrichment.
 
 ## Features
+![Lead Scraper Demo](assets/screenshot1.png)
+
 - **Zero-Dependency Architecture**: Built entirely with Python standard libraries (`urllib`, `html.parser`, `re`), ensuring easy deployment without complex environment setups (no `pip install` required).
 - **Authentication Support**: Accepts LinkedIn `li_at` session cookies to bypass authwalls and access real profile data.
 - **Resilient Parsing**: Uses regex and flexible pattern matching to handle dynamic HTML structures.
